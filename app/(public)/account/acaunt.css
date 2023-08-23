@@ -1,0 +1,175 @@
+.acaunt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerac {
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 750px;
+  border-radius: 20px;
+}
+.flexacaunt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexacaund2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.cardacaunt {
+  border-right: 25px;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    flex: 0 0 91.66666667%;
+    max-width: 91.66666667%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .col-xl-11 {
+    flex: 0 0 91.66666667%;
+    max-width: 91.66666667%;
+  }
+}
+
+/* account.css */
+@media (min-width: 768px) {
+  .cardacaunt-body {
+    padding: 3rem;
+  }
+}
+
+/* account.css */
+@media (min-width: 768px) {
+  .col-md-10 {
+    flex: 0 0 83.33333333%;
+    max-width: 83.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-5 {
+    flex: 0 0 41.66666667%;
+    max-width: 41.66666667%;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .order-lg-1 {
+    order: 1;
+  }
+}
+/* account.css */
+.text-center {
+  text-align: center;
+  color: white;
+}
+.button {
+  font-size: 0.85em;
+  color: #446;
+  background-color: hsl(0 0% 100% / 0.4);
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.tileac {
+  font-size:1rem; /* O'zgartiring kerak bo'lganda */
+}
+
+.tileac {
+  font-weight: bold;
+}
+
+.tileac {
+  margin-bottom: 3rem; /* O'zgartiring kerak bo'lganda */
+}
+
+.tileac {
+  margin-top: 1.5rem; /* O'zgartiring kerak bo'lganda */
+}
+
+.tileac{
+  margin-left: 0.25rem; /* O'zgartiring kerak bo'lganda */
+  margin-right: 0.25rem; /* O'zgartiring kerak bo'lganda */
+}
+
+.tileac {
+  margin-left: 1.5rem; /* O'zgartiring kerak bo'lganda */
+  margin-right: 1.5rem; /* O'zgartiring kerak bo'lganda */
+}
+
+/* account.css */
+@media (min-width: 768px) {
+  .col-md-10 {
+    flex: 0 0 83.33333333%;
+    max-width: 83.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-7 {
+    flex: 0 0 58.33333333%;
+    max-width: 58.33333333%;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .order-lg-2 {
+    order: 2;
+  }
+}
+
+/* Flexbox klasslari */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+@media (max-width: 568px) {
+  .flexacaund2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerac {
+    width: 100%;
+  }
+}

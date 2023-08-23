@@ -1,0 +1,133 @@
+body {
+  color: #224;
+  background: url(../../../../assets/1618553780_27-phonoteka_org-p-genetika-fon-32.jpg)
+    center / cover no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.sarlavha {
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 15px 0px 15px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.CardsPas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 50px 0px 50px 0px;
+}
+.cardwer {
+  max-width: 360px;
+  min-height: 160px;
+  max-width: 360px;
+  height: 270px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgcard {
+  background-color: transparent;
+}
+
+.titlecard {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.titlecard p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.titlecard p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Bu yerda ko'rsatilgan qiymat matndagi qatorlar sonini anglatadi. Masalan, 2 - 2 qator, 3 - 3 qator, va hokazo. */
+  -webkit-box-orient: vertical;
+}
+#Images {
+  height: 250px;
+  object-fit: cover;
+  margin-top: -5px;
+  border-radius: 20px;
+}
+.cardFooter {
+  width: 100px;
+  height: 40px;
+  font-size: 0.85em;
+  color: #446;
+  background-color: hsl(0 0% 100% / 0.4);
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.paganation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: hsl(0 0% 100% / 0.4);
+}
+@media screen and (min-width: 991px) {
+  .CardsPas {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: #224; */
+  }
+}
+@media screen and (max-width: 1091px) {
+  .CardsPas {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 731px) {
+  .CardsPas {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+}
